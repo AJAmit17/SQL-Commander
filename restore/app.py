@@ -25,6 +25,7 @@ def gemini_get(prompt, question):
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content([prompt[0],question])
     
+    print(response.text)
     return response.text
 
 def read_sql(sql,db):

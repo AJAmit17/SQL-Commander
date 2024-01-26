@@ -8,7 +8,7 @@ cursor=connection.cursor()
 
 ### Creating a table
 table_info="""
-Create table STUDENT(NAME VARCHAR(25),CLASS VARCHAR(25),
+"`  Create table STUDENT(NAME VARCHAR(25),CLASS VARCHAR(25),
 SECTION VARCHAR(25),MARKS INT);
 
 """
@@ -20,7 +20,7 @@ cursor.execute("INSERT INTO STUDENT VALUES ('Bob', 'Web Development', 'C', 92)")
 cursor.execute("INSERT INTO STUDENT VALUES ('Charlie', 'DEVOPS', 'B', 88)")
 cursor.execute("INSERT INTO STUDENT VALUES ('David', 'Machine Learning', 'A', 95)")
 cursor.execute("INSERT INTO STUDENT VALUES ('Eva', 'Web Development', 'A', 80)")
-cursor.execute("INSERT INTO STUDENT VALUES ('Frank', 'Data Science', 'C', 78)")
+cursor.execute("INSERT INTO STUDENT VALUES ('Frank', 'Data Scienc?-    e', 'C', 78)")
 cursor.execute("INSERT INTO STUDENT VALUES ('Grace', 'Web Development', 'A', 89)")
 cursor.execute("INSERT INTO STUDENT VALUES ('Helen', 'Machine Learning', 'B', 94)")
 cursor.execute("INSERT INTO STUDENT VALUES ('Isaac', 'Data Science', 'B', 85)")

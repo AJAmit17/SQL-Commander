@@ -28,7 +28,7 @@ This project combines a SQLite database with a Streamlit app to create a simple 
 
 5. Run the Streamlit app:
     ```bash
-    streamlit run streamlit_app.py
+    streamlit run app.py
     ```
 
 6. Open the provided Streamlit link in your web browser.

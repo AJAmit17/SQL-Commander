@@ -9,7 +9,7 @@ Follow these steps to set up and run the SQL-Commander LLM application:
 ### Prerequisites
 
 - Python 3.9 installed on your machine.
-- [Google Generative AI API Key](https://opensource.google/projects/gemini)
+- [Google Generative AI API Key](https://ai.google.dev/tutorials/setup)
 
 ### Installation
 
@@ -79,9 +79,15 @@ INSERT INTO G_SAILORS (sid, sname, rating, age) VALUES (42, 'William Jones', 'SA
 
 Q1. Retrieve the names (sname) and ratings of sailors aged 25 or younger from the G_SAILORS table.
 
-Q2. Retrieve the ages and ratings of sailors named (sname)  'William Jones' from the G_SAILORS table.
+![Q1](images/q1.png)
 
-Q3. Find the names (sname) and ages(age) of sailors with a rating of 'SA' or 'SB' from table G_sailors
+Q2. Retrieve the ages and ratings of sailors named 'William Jones' from the G_SAILORS table.
+
+![Q2](images/q2.png)
+
+Q3. Find the names (sname) and ages(age) of sailors with a rating of 'SA' or 'SB' from table G_SAILORS.
+
+![Q3](images/q3.png)
 
 ### NOTE
 - Create the table first and Ask Question to get proper output
